@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-  root to: login_path
+  root to: '/login'
 end
