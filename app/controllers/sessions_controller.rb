@@ -8,6 +8,8 @@ class SessionsController < ApplicationController
     return redirect_to login_path if params[:name].empty?
 
     session[:name] = params[:name]
+
+    redirect_to
   end
 
   def destroy
