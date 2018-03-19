@@ -1,3 +1,3 @@
 class SecretsController < ApplicationController
-  before_action :check_logged_in
+  before_action :require_login
 end
