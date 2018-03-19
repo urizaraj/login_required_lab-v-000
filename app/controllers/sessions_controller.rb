@@ -10,4 +10,8 @@ class SessionsController < ApplicationController
   def destroy
 
   end
+
+  def current_user
+    session[:username]
+  end
 end
