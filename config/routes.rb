@@ -3,5 +3,5 @@ Rails.application.routes.draw do
   get '/login', to: 'sessions#new'
   post '/login', to: 'sessions#create'
 
-  get '/secrets' do: 'secrets#show'
+  get '/secrets' to: 'secrets#show'
 end
